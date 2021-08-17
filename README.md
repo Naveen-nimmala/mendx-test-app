@@ -1,11 +1,11 @@
 # Test Python App
-##Tools & Techs
+###Tools & Techs
 - Cloud - GCP
 - CICD - gitlab
 - Orchestration - K8s (kustomize, Makefile for dynamic manifests)
 - Programming - Python3.8
 
-##Procedure 
+###Procedure 
 I have added multiple extra steps in CICD like bash scripts in Makefile and kustomize patches, RollBacks etc. Just i want to make sure app deployment should have end to end process with automation, when we scale the app or any other resources, it will be easy for us to maintain entire ecosystem
 
 ### Directory Structure
