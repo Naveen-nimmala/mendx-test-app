@@ -42,10 +42,6 @@ I have added multiple extra steps in CICD like bash scripts in Makefile and kust
     └── requirements.txt
     
 
-
-
-<img width="337" alt="dir" src="https://user-images.githubusercontent.com/58160849/129747423-c04e0366-a688-452f-b9d7-fe591ffbff8c.png">
-
 Process will start from CICD(.gitlab-ci.yml) file,
 
 - Gitlab takes gcp-base image and start building images(Publish Image --> here we are using dind approach to build docker images, we don't require any docker image to build this) 
