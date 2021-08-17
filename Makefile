@@ -2,7 +2,8 @@ version = $(shell git describe --always --tags)
 
 # common tasks
 obtain_image_url:
-	@ echo gcr.io/airasia-checkin-${env}/adhoc-payment-fe
+	# This is our private repo URL to publish the images, eg Google Container Registry
+	@ echo gcr.io/PROJECT-NAME/test-app
 
 obtain_image_version:
 	@ echo ${version}

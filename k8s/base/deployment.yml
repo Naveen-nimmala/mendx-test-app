@@ -8,7 +8,7 @@ spec:
     spec:
       containers:
         - name: test-app
-          image: naveen023/test-python-app
+          image: IMAGE_PLACEHOLDER
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
