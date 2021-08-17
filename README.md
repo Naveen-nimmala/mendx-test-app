@@ -40,6 +40,9 @@ I have added multiple extra steps in CICD like bash scripts in Makefile and kust
     │           ├── kustomization.yml
     │           └── namespace-patch.yml
     └── requirements.txt
+    
+    <img width="337" alt="dir" src="https://user-images.githubusercontent.com/58160849/129747320-8162167b-3f3b-43be-96d3-f79e0d8bb535.png">
+
 
 Process will start from CICD(.gitlab-ci.yml) file,
 
