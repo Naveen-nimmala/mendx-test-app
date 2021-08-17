@@ -7,6 +7,6 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 
 #Unit test
-RUN python -m pytest test_app.py
+RUN python -m pytest app/test_app.py
 
-CMD [ "hug", "-f", "app.py" ]
+CMD [ "hug", "-f", "app/app.py" ]
