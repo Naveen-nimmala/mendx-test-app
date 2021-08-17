@@ -10,14 +10,12 @@
 I have added multiple extra steps in CICD like bash scripts in Makefile and kustomize patches, RollBacks etc. Just i want to make sure app deployment should have end to end process with automation, when we scale the app or any other resources, it will be easy for us to maintain entire ecosystem
 
 ### Directory Structure
-    ├── .gitignore
-	├── .gitlab-ci.yml
-	├── Dockerfile
+    ├── Dockerfile
     ├── Makefile
+    ├── README.md
     ├── app
     │   ├── app.py
-    │   ├── message_template.py
-    │   └── send_notifications.py
+    │   └── test_app.py
     ├── k8s
     │   ├── base
     │   │   ├── deployment.yml
@@ -29,7 +27,15 @@ I have added multiple extra steps in CICD like bash scripts in Makefile and kust
     │       │   ├── deployment-patch.yml
     │       │   ├── kustomization.yml
     │       │   └── namespace-patch.yml
-    │       └── prd
+    │       ├── ppd
+    │       │   ├── deployment-patch.yml
+    │       │   ├── kustomization.yml
+    │       │   └── namespace-patch.yml
+    │       ├── prd
+    │       │   ├── deployment-patch.yaml
+    │       │   ├── kustomization.yml
+    │       │   └── namespace-patch.yml
+    │       └── stg
     │           ├── deployment-patch.yml
     │           ├── kustomization.yml
     │           └── namespace-patch.yml
