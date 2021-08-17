@@ -1,0 +1,15 @@
+- op: replace
+  path: /metadata/name
+  value: test-app-stg
+- op: add
+  path: /metadata/labels/version
+  value: stg
+- op: add
+  path: /spec/template/metadata/labels/version
+  value: stg
+- op: replace
+  path: /spec/template/spec/containers/0/name
+  value: test-app-stg-container
+- op: add
+  path: /spec/selector/matchLabels/version
+  value: stg
