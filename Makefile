@@ -40,3 +40,9 @@ install:
 		kustomize edit set image IMAGE_PLACEHOLDER=${image_url}:${version} && \
 		kustomize build ./  | \
 		kubectl apply -f -
+
+
+rollback:
+	@ echo "Rolling back"
+	@ kubectl rollout undo deployment/python-test-app
+	@ kubectl rollout status deployment/python-test-app

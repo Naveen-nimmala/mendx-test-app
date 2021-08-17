@@ -179,3 +179,19 @@ Deploy PRD:
   only:
     refs:
       - tags
+
+Rollback Prod:
+  stage: Rollback Prod
+  image: gcr.io/google.com/cloudsdktool/cloud-sdk
+  variables: # These Variables will change as per Cloud provider, Here we are taking eg as GKE from GCP
+    cluster: CLUSTER_NAME
+    region: REGION
+    project: PROJECT
+  script:
+    - make configure_docker
+    - make configure_k8s
+    - make rollback
+  when: manual
+  only:
+    refs:
+      - tags
