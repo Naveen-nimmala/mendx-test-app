@@ -67,3 +67,18 @@ Process will start from CICD(.gitlab-ci.yml) file,
 
 - It finally apply the chnages on namespace, deployment and service.yml files and it uses `commonLabels --> app: test-app`
 
+### Development pipeline
+
+![Screenshot 2021-08-18 at 11 22 51 PM](https://user-images.githubusercontent.com/58160849/129927050-13b61c30-08ad-40c0-b849-da7873482b6e.png)
+
+### Staging pipeline
+
+![Screenshot 2021-08-18 at 11 20 54 PM](https://user-images.githubusercontent.com/58160849/129927119-805dd67a-ed9b-4925-9cd5-97f00ed7ee65.png)
+
+### Preprod pipeline
+
+![Screenshot 2021-08-18 at 11 21 57 PM](https://user-images.githubusercontent.com/58160849/129927189-d688406a-5acd-4c15-a75a-46810500c951.png)
+
+### Prod pipeline
+
+![Screenshot 2021-08-18 at 11 25 14 PM](https://user-images.githubusercontent.com/58160849/129927264-ed74bbc1-8d15-4b76-97c4-175b649224d6.png)
