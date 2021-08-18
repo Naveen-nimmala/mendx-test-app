@@ -82,3 +82,12 @@ Process will start from CICD(.gitlab-ci.yml) file,
 ### Prod pipeline
 
 ![Screenshot 2021-08-18 at 11 25 14 PM](https://user-images.githubusercontent.com/58160849/129927264-ed74bbc1-8d15-4b76-97c4-175b649224d6.png)
+
+### K8s Resources
+
+![Screenshot 2021-08-18 at 11 29 14 PM](https://user-images.githubusercontent.com/58160849/129927495-ee41253f-7a49-49e7-bbcd-0a38aa7a1d0a.png)
+
+### Application UI
+
+![Screenshot 2021-08-18 at 11 29 56 PM](https://user-images.githubusercontent.com/58160849/129927579-8ce7a930-6053-4679-882a-a2c7cafd71b5.png)
+
