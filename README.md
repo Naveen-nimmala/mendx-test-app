@@ -85,7 +85,7 @@ Process will start from CICD(.gitlab-ci.yml) file,
 
 ### K8s Resources
 
-![Screenshot 2021-08-18 at 11 29 14 PM](https://user-images.githubusercontent.com/58160849/129927495-ee41253f-7a49-49e7-bbcd-0a38aa7a1d0a.png)
+![Screenshot 2021-08-18 at 11 35 17 PM](https://user-images.githubusercontent.com/58160849/129927753-3f966b7d-7813-4f73-8b1c-e39bbd929fe2.png)
 
 ### Application UI
 
